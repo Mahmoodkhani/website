@@ -69,7 +69,7 @@ There are three kinds of integers in PostgreSQL:
 There are three main types of floating\-point numbers:
 
 - `float(n)`  is a floating\-point number whose precision, is at least, n, up to a maximum of 8 bytes.
-- `real`or `float8`is a 4\-byte floating\-point number.
+- `real`or `float8`is a 8\-byte floating\-point number.  
 - [`numeric`](postgresql-numeric)or `numeric(p,s)` is a real number with p digits with s number after the decimal point. This `numeric(p,s)` is the exact number.
 
 ## Temporal data types
