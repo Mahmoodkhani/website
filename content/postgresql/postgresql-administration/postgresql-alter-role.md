@@ -107,7 +107,7 @@ To change the name of a role, you use the following form of the `ALTER ROLE` sta
 
 ```sql
 ALTER ROLE role_name
-TO new_name;
+RENAME TO new_name;
 ```
 
 In this syntax, you specify the name of the role after the `ALTER ROLE` keywords and the new name of the role after the `TO` keyword.
