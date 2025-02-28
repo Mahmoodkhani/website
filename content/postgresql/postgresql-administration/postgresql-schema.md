@@ -155,7 +155,7 @@ The `public` schema is the second element in the search path, so to access the `
 SELECT * FROM public.staff;
 ```
 
-If you use the following command, you will need to explicitly refer to objects in the `public` schema using a fully qualified name:
+If you use the following command, you will not need to explicitly refer to objects in the `public` schema using a fully qualified name:
 
 ```php
 SET search_path TO public;
